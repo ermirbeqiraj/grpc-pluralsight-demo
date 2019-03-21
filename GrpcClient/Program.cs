@@ -30,7 +30,7 @@ namespace GrpcClient
             {
                 var creds = GetSslCredentials();
 
-                var PcName = Environment.GetEnvironmentVariable("CUMPUTERNAME") ?? Environment.GetEnvironmentVariable("HOSTNAME") ?? "DESKTOP-VMO80G3";
+                var PcName = Environment.MachineName;
                 var channelOptions = new List<ChannelOption>
                 {
                     // this will get rid of nds failure error
