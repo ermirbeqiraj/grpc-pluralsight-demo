@@ -1,2 +1,5 @@
 # grpc-pluralsight-demo
-Enhancing Application Communication with gRPC : C# example ported to dotnet core
+
+This is a port to dotnet core of the C# example server/client from this pluralsight course:
+
+[Enhancing Application Communication with gRPC](https://app.pluralsight.com/library/courses/grpc-enhancing-application-communication/table-of-contents)
